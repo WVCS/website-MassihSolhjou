@@ -1,3 +1,47 @@
+nav {
+  list-style: none;
+  background-color: #333;
+  width: 100%;
+    overflow: hidden;
+    position: fixed;
+  text-align: center; 
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+li {
+  float: left; 
+}
+
+li a {
+ display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 50px; 
+}
+
+li a:hover {
+  background-color: antiquewhite; 
+  color: black;
+}
 body {
-background-color: salmon;
+  background-color: #8D775F
+}
+
+h3 {
+  color: black;
+  font-size: 300%;
+  background-color: #D5BF86;
+  letter-spacing: 10px; 
+}
+p {
+  color: black;
+  font-size: 150%;
+}
+img {
+  length: 50%;
+  width: 40%;
+  border: dashed 4px #D5BF86
+  
 }
